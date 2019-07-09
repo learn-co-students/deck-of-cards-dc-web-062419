@@ -13,8 +13,8 @@ class Deck
   end
   
   def choose_card
-    choose_card = @cards.sample
-    @cards.delete(choose_card)
+    choosen_card = @cards.sample
+    @cards.delete(choosen_card)
   end
 end
 
